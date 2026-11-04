@@ -1,18 +1,7 @@
 <div align="center">
 
 <!-- TOP STATUS PILL -->
-<p>
-  <a href="https://mehedi-hasan-llm.vercel.app/">
-    <img src="https://img.shields.io/badge/STATUS-OPEN_TO_AI_%C2%B7_BACKEND_%C2%B7_MLOPS_ROLES_(UTC%2B6)-10b981?style=flat-square&labelColor=161b22" alt="Open to Roles" />
-  </a>
-</p>
-
-<!-- NATIVE CRISP HERO TITLE (Zero external server dependency) -->
-<h1 align="center">
-  Mehedi Hasan
-  <br/>
-  <sub>AI Systems Engineer &nbsp;·&nbsp; RAG & Agentic Architect &nbsp;·&nbsp; Backend & MLOps</sub>
-</h1>
+<p><img src="./assets/gemin-svg.svg" width="100%" alt="Mehedi Hasan Banner" /></p>
 
 <!-- BLOCK-WRAPPED ANIMATED TERMINAL LINE -->
 <p>
