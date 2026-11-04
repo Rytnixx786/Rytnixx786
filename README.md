@@ -1,20 +1,32 @@
 <div align="center">
 
-<!-- HERO WAVE BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e293b,100:10b981&height=200&section=header&text=Mehedi%20Hasan&fontSize=50&fontColor=ffffff&fontAlignY=35&desc=AI%20Systems%20Engineer%20%C2%B7%20RAG%20Architect%20%C2%B7%20Backend%20%26%20MLOps&descAlignY=58&descSize=18" width="100%" alt="Mehedi Hasan Banner" />
+<!-- TOP STATUS PILL -->
+<p>
+  <a href="https://mehedi-hasan-llm.vercel.app/">
+    <img src="https://img.shields.io/badge/STATUS-OPEN_TO_AI_%C2%B7_BACKEND_%C2%B7_MLOPS_ROLES_(UTC%2B6)-10b981?style=flat-square&labelColor=161b22" alt="Open to Roles" />
+  </a>
+</p>
 
-<!-- ANIMATED TERMINAL SUBTITLE -->
-<a href="https://mehedi-hasan-llm.vercel.app/">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3200&pause=1000&color=10B981&center=true&vCenter=true&width=780&lines=Bridging+stochastic+LLM+outputs+with+deterministic+systems.;Low-Latency+vLLM+Serving+%7C+Hybrid+RAG+%7C+Stateful+LangGraph;MLOps+Regression+Gates+%7C+3D+Medical+Deep+Learning;Open+to+AI+Engineering%2C+Backend+%26+Full-Stack+Roles+(UTC%2B6)" alt="Typing SVG" />
-</a>
+<!-- NATIVE CRISP HERO TITLE (Zero external server dependency) -->
+<h1 align="center">
+  Mehedi Hasan
+  <br/>
+  <sub>AI Systems Engineer &nbsp;·&nbsp; RAG & Agentic Architect &nbsp;·&nbsp; Backend & MLOps</sub>
+</h1>
 
-<br/>
+<!-- BLOCK-WRAPPED ANIMATED TERMINAL LINE -->
+<p>
+  <a href="https://mehedi-hasan-llm.vercel.app/">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&duration=3200&pause=1200&color=10B981&center=true&vCenter=true&width=700&height=28&lines=Bridging+stochastic+LLM+outputs+with+deterministic+systems.;10.86x+vLLM+Serving+Speedup+%C2%B7+4.12ms+Semantic+Cache+%C2%B7+Hybrid+RAG;Stateful+LangGraph+Agents+%C2%B7+CI%2FCD+Model+Regression+Gates" alt="Terminal Telemetry" />
+  </a>
+</p>
 
-<!-- PRIMARY NAVIGATION & CONTACT BADGES -->
-[![Portfolio](https://img.shields.io/badge/Portfolio-mehedi--hasan--llm.vercel.app-10b981?style=for-the-badge&logo=vercel&logoColor=white)](https://mehedi-hasan-llm.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
-[![Email](https://img.shields.io/badge/Email-nafismehedi37%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nafismehedi37@gmail.com)
-[![Status](https://img.shields.io/badge/Status-Open_to_Roles-22c55e?style=for-the-badge)](#)
+<!-- UNIFIED SINGLE-ROW NAVIGATION BAR -->
+<p>
+  <a href="https://mehedi-hasan-llm.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-mehedi--hasan--llm.vercel.app-10b981?style=for-the-badge&logo=vercel&logoColor=white&labelColor=161b22" alt="Portfolio" /></a>&nbsp;
+  <a href="https://www.linkedin.com/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=161b22" alt="LinkedIn" /></a>&nbsp;
+  <a href="mailto:nafismehedi37@gmail.com"><img src="https://img.shields.io/badge/Email-nafismehedi37%40gmail.com-0f766e?style=for-the-badge&logo=gmail&logoColor=white&labelColor=161b22" alt="Email" /></a>
+</p>
 
 </div>
 
@@ -22,22 +34,32 @@
 
 ### `01 // ENGINEERING PHILOSOPHY`
 
-I care about what happens **after** the model responds. Deploying AI into production means refusing uncalibrated hallucinations, replacing brittle prompt loops with stateful graph checkpoints, and gating every model promotion behind deterministic CI benchmarks.
+> **"I care about what happens *after* the model responds."**  
+> Shipping AI into production means refusing uncalibrated hallucinations, replacing brittle prompt loops with stateful graph checkpoints, and gating every model promotion behind deterministic CI benchmarks.
 
-```yaml
-engineer: Mehedi Hasan
-location: Dhaka, Bangladesh (UTC+6)
-education: B.Sc. in Computer Science & Engineering @ BRAC University
-experience: Software Engineering Intern @ FlyRank | Independent AI Systems Builder
-research: 3D Coronary Artery Stenosis Detection & QCA Engine (RASNet / SegResNet · 95.2% CAD-RADS Agreement)
-core_focus:
-  - Self-Hosted Quantized Inference & FinOps Governance (vLLM, AWQ Marlin INT4, Semantic Caching)
-  - Calibrated Hybrid Retrieval & Adversarial Refusal Gates (BM25 + Dense Vector + RRF)
-  - Stateful Multi-Agent Orchestration & Durable Checkpointing (LangGraph, PostgreSQL, SSE)
-  - Multi-Tenant Security, Cryptographic Audit Ledgers & Offline-First Sync Engines
-```
-
----
+<table>
+  <tr>
+    <td width="56%" valign="top">
+      <h4>Core Architectural Focus</h4>
+      <ul>
+        <li><b>Inference & FinOps:</b> Self-hosted quantized serving (<code>vLLM</code>, <code>AWQ Marlin INT4</code>), semantic vector caching, and token budget cutoffs.</li>
+        <li><b>Calibrated Retrieval:</b> Hybrid <code>BM25</code> + dense vector search with Reciprocal Rank Fusion and NLI entailment refusal gates.</li>
+        <li><b>Durable Orchestration:</b> Stateful <code>LangGraph</code> workflows backed by PostgreSQL checkpointing and resumable SSE streams.</li>
+        <li><b>Security & Edge Sync:</b> Multi-tenant PostgreSQL RLS, chained <code>SHA-256</code> audit ledgers, and offline-first SQLite outbox sync.</li>
+      </ul>
+    </td>
+    <td width="44%" valign="top">
+      <h4>System Telemetry</h4>
+      <ul>
+        <li><b>Base:</b> Dhaka, Bangladesh (<code>UTC+6</code>)</li>
+        <li><b>Experience:</b> SWE Intern @ <b>FlyRank</b> · Independent AI Systems Builder</li>
+        <li><b>Education:</b> B.Sc. in CSE @ <b>BRAC University</b></li>
+        <li><b>Clinical AI Research:</b> 3D CCTA Coronary Stenosis & QCA Engine (<code>RASNet</code> / <code>SegResNet</code> · <b>95.2%</b> adjacent CAD-RADS agreement)</li>
+        <li><b>Kernel & OS Work:</b> Custom C File System (<code>SimpleFS</code>) & RISC-V <code>xv6</code> Lottery Scheduler</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ### `02 // FLAGSHIP PRODUCTION SYSTEMS`
 
@@ -189,6 +211,8 @@ graph LR
   </picture>
 </div>
 
+---
+
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e293b,100:10b981&height=110&section=footer" width="100%" alt="Footer Wave" />
+  <sub>Built with deterministic systems discipline · <a href="https://mehedi-hasan-llm.vercel.app/"><b>mehedi-hasan-llm.vercel.app</b></a></sub>
 </div>
