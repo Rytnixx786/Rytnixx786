@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b14" />
+      <stop offset="55%" stop-color="#0a0f1d" />
+      <stop offset="100%" stop-color="#071517" />
+    </linearGradient>
+
+    <!-- Subtle Emerald Bottom-Right Glow -->
+    <radialGradient id="emeraldGlow" cx="88%" cy="85%" r="45%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.16" />
+      <stop offset="60%" stop-color="#10b981" stop-opacity="0.04" />
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Subtle Indigo Top-Center Glow -->
+    <radialGradient id="indigoGlow" cx="50%" cy="25%" r="45%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.09" />
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Engineering Grid Pattern -->
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#1e293b" stroke-width="0.65" stroke-opacity="0.45" />
+    </pattern>
+
+    <!-- Clip Path for Rounded Terminal Card -->
+    <clipPath id="cardClip">
+      <rect x="4" y="4" width="1192" height="292" rx="18" ry="18" />
+    </clipPath>
+  </defs>
+
+  <!-- Main Card Body -->
+  <g clip-path="url(#cardClip)">
+    <rect x="4" y="4" width="1192" height="292" fill="url(#bgGrad)" />
+    <rect x="4" y="4" width="1192" height="292" fill="url(#grid)" />
+    <rect x="4" y="4" width="1192" height="292" fill="url(#indigoGlow)" />
+    <rect x="4" y="4" width="1192" height="292" fill="url(#emeraldGlow)" />
+  </g>
+
+  <!-- Outer Card Border -->
+  <rect x="4" y="4" width="1192" height="292" rx="18" ry="18" fill="none" stroke="#1e293b" stroke-width="1.8" />
+
+  <!-- Top-Left Window Controls & Terminal Prompt -->
+  <circle cx="38" cy="40" r="6" fill="#ef4444" />
+  <circle cx="58" cy="40" r="6" fill="#f59e0b" />
+  <circle cx="78" cy="40" r="6" fill="#10b981" />
+  <text x="104" y="45" font-family="'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, monospace" font-size="14" font-weight="500" fill="#64748b">
+    mehedi@systems:~/production-ai
+  </text>
+
+  <!-- Top-Right Status Pill -->
+  <rect x="928" y="21" width="240" height="38" rx="19" ry="19" fill="#06281e" fill-opacity="0.85" stroke="#10b981" stroke-width="1.2" stroke-opacity="0.8" />
+  <circle cx="952" cy="40" r="5" fill="#10b981">
+    <animate attributeName="opacity" values="1;0.45;1" dur="2.4s" repeatCount="indefinite" />
+  </circle>
+  <text x="968" y="45" font-family="'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, monospace" font-size="13" font-weight="700" letter-spacing="0.6" fill="#d1fae5">
+    OPEN TO ROLES · UTC+6
+  </text>
+
+  <!-- Center Display Name -->
+  <text x="600" y="136" text-anchor="middle" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="60" font-weight="800" letter-spacing="-1.2" fill="#f8fafc">
+    Mehedi Hasan
+  </text>
+
+  <!-- Center Subtitle -->
+  <text x="600" y="182" text-anchor="middle" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="500" fill="#cbd5e1">
+    AI Systems Engineer · <tspan fill="#10b981" font-weight="700">RAG &amp; Agentic Architect</tspan> · Backend &amp; MLOps
+  </text>
+
+  <!-- Bottom Telemetry Pill -->
+  <rect x="140" y="212" width="920" height="46" rx="11" ry="11" fill="#0d1323" fill-opacity="0.92" stroke="#1e293b" stroke-width="1.3" />
+  <text x="600" y="240" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, monospace" font-size="14.5" font-weight="500">
+    <tspan fill="#10b981" font-weight="700">10.86x</tspan><tspan fill="#94a3b8"> vLLM Speedup  ·  </tspan>
+    <tspan fill="#38bdf8" font-weight="700">4.12ms</tspan><tspan fill="#94a3b8"> Semantic Cache  ·  </tspan>
+    <tspan fill="#10b981" font-weight="700">95%</tspan><tspan fill="#94a3b8"> RAG Groundedness  ·  </tspan>
+    <tspan fill="#818cf8" font-weight="700">95.2%</tspan><tspan fill="#94a3b8"> CAD-RADS Agreement</tspan>
+  </text>
+</svg>
