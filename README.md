@@ -1,7 +1,11 @@
 <div align="center">
 
 <!-- TOP STATUS PILL -->
-<p><img src="./assets/gemin-svg.svg" width="100%" alt="Mehedi Hasan Banner" /></p>
+<p>
+  <a href="https://mehedi-hasan-llm.vercel.app/">
+    <img src="./assets/banner.svg" width="100%" alt="Mehedi Hasan — AI Systems Engineer" />
+  </a>
+</p>
 
 <!-- BLOCK-WRAPPED ANIMATED TERMINAL LINE -->
 <p>
