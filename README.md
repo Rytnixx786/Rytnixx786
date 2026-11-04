@@ -175,25 +175,77 @@ graph LR
 ### `04 // PRODUCTION STACK`
 
 <div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,ts,c,fastapi,nextjs,react,postgres,redis,sqlite,supabase,prisma,docker,kubernetes,linux,githubactions&perline=15&theme=dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=py,ts,c,fastapi,nextjs,react,postgres,redis,sqlite,supabase,prisma,docker,kubernetes,linux,githubactions&perline=15&theme=light" />
-  <img src="https://skillicons.dev/icons?i=py,ts,c,fastapi,nextjs,react,postgres,redis,sqlite,supabase,prisma,docker,kubernetes,linux,githubactions&perline=15&theme=dark" alt="Tech Stack Icons" />
-</picture>
-
-<br/><br/>
-
-![vLLM](https://img.shields.io/badge/vLLM_%26_Marlin_INT4-0f172a?style=flat-square&logo=nvidia&logoColor=10b981)
-![LangGraph](https://img.shields.io/badge/LangGraph_StateGraph-0f172a?style=flat-square&logo=chainlink&logoColor=38bdf8)
-![ChromaDB](https://img.shields.io/badge/ChromaDB_%2B_BM25-0f172a?style=flat-square&logo=databricks&logoColor=f59e0b)
-![SQLAlchemy](https://img.shields.io/badge/Async_SQLAlchemy-0f172a?style=flat-square&logo=sqlalchemy&logoColor=ef4444)
-![Prometheus](https://img.shields.io/badge/Prometheus_%26_OTel-0f172a?style=flat-square&logo=prometheus&logoColor=e6522c)
-![DVC](https://img.shields.io/badge/DVC_%26_Pytest_Gates-0f172a?style=flat-square&logo=pytest&logoColor=0A9EDC)
-
+  <p>
+    <img src="https://skillicons.dev/icons?i=py,ts,js,c,bash,pytorch,fastapi,nodejs,nextjs,react,tailwind,postgres,redis,mongodb,sqlite,supabase,prisma,docker,kubernetes,githubactions,vercel,linux&perline=11" alt="Core Production Stack" />
+  </p>
 </div>
 
----
+<table>
+  <tr>
+    <td width="28%"><b>Languages & Systems</b></td>
+    <td width="72%">
+      <img src="https://img.shields.io/badge/Python_3.11%2B-0f172a?style=flat-square&logo=python&logoColor=38bdf8" alt="Python" />
+      <img src="https://img.shields.io/badge/TypeScript-0f172a?style=flat-square&logo=typescript&logoColor=3178c6" alt="TypeScript" />
+      <img src="https://img.shields.io/badge/JavaScript-0f172a?style=flat-square&logo=javascript&logoColor=f7df1e" alt="JavaScript" />
+      <img src="https://img.shields.io/badge/C_(POSIX_%2F_xv6)-0f172a?style=flat-square&logo=c&logoColor=a8b9cc" alt="C" />
+      <img src="https://img.shields.io/badge/SQL-0f172a?style=flat-square&logo=postgresql&logoColor=38bdf8" alt="SQL" />
+      <img src="https://img.shields.io/badge/Bash-0f172a?style=flat-square&logo=gnubash&logoColor=10b981" alt="Bash" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>LLM, RAG & Deep Learning</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/vLLM_%26_Marlin_INT4-0f172a?style=flat-square&logo=nvidia&logoColor=10b981" alt="vLLM" />
+      <img src="https://img.shields.io/badge/LangGraph_StateGraph-0f172a?style=flat-square&logo=chainlink&logoColor=38bdf8" alt="LangGraph" />
+      <img src="https://img.shields.io/badge/ChromaDB_%2B_BM25_RRF-0f172a?style=flat-square&logo=databricks&logoColor=f59e0b" alt="ChromaDB & BM25" />
+      <img src="https://img.shields.io/badge/PyTorch_(3D_CNNs_%2F_RASNet)-0f172a?style=flat-square&logo=pytorch&logoColor=ee4c2c" alt="PyTorch" />
+      <img src="https://img.shields.io/badge/Hugging_Face_%26_NLI_Gates-0f172a?style=flat-square&logo=huggingface&logoColor=ffd21e" alt="Hugging Face" />
+      <img src="https://img.shields.io/badge/Gemini_%26_OpenAI_APIs-0f172a?style=flat-square&logo=google&logoColor=38bdf8" alt="LLM APIs" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>Backend & Distributed APIs</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/FastAPI_(Async_%2B_SSE)-0f172a?style=flat-square&logo=fastapi&logoColor=009688" alt="FastAPI" />
+      <img src="https://img.shields.io/badge/Async_SQLAlchemy-0f172a?style=flat-square&logo=sqlalchemy&logoColor=ef4444" alt="SQLAlchemy" />
+      <img src="https://img.shields.io/badge/Pydantic_v2-0f172a?style=flat-square&logo=pydantic&logoColor=e92063" alt="Pydantic" />
+      <img src="https://img.shields.io/badge/Prisma_ORM-0f172a?style=flat-square&logo=prisma&logoColor=38bdf8" alt="Prisma" />
+      <img src="https://img.shields.io/badge/Node.js-0f172a?style=flat-square&logo=nodedotjs&logoColor=339933" alt="Node.js" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>Data, Vector & Edge Storage</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/PostgreSQL_(RLS)-0f172a?style=flat-square&logo=postgresql&logoColor=4169e1" alt="PostgreSQL" />
+      <img src="https://img.shields.io/badge/Redis_(Caching_%26_Limits)-0f172a?style=flat-square&logo=redis&logoColor=dc382d" alt="Redis" />
+      <img src="https://img.shields.io/badge/SQLite_(Offline_Sync)-0f172a?style=flat-square&logo=sqlite&logoColor=38bdf8" alt="SQLite" />
+      <img src="https://img.shields.io/badge/Supabase-0f172a?style=flat-square&logo=supabase&logoColor=3ecf8e" alt="Supabase" />
+      <img src="https://img.shields.io/badge/MongoDB_Atlas-0f172a?style=flat-square&logo=mongodb&logoColor=47a248" alt="MongoDB" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>Frontend & Cross-Platform</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Next.js-0f172a?style=flat-square&logo=nextdotjs&logoColor=ffffff" alt="Next.js" />
+      <img src="https://img.shields.io/badge/React-0f172a?style=flat-square&logo=react&logoColor=61dafb" alt="React" />
+      <img src="https://img.shields.io/badge/React_Native_%26_Expo-0f172a?style=flat-square&logo=expo&logoColor=ffffff" alt="React Native & Expo" />
+      <img src="https://img.shields.io/badge/Tailwind_CSS-0f172a?style=flat-square&logo=tailwindcss&logoColor=06b6d4" alt="Tailwind CSS" />
+      <img src="https://img.shields.io/badge/Streamlit-0f172a?style=flat-square&logo=streamlit&logoColor=ff4b4b" alt="Streamlit" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>MLOps, Cloud & Observability</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Docker-0f172a?style=flat-square&logo=docker&logoColor=2496ed" alt="Docker" />
+      <img src="https://img.shields.io/badge/Kubernetes_(HPA)-0f172a?style=flat-square&logo=kubernetes&logoColor=326ce5" alt="Kubernetes" />
+      <img src="https://img.shields.io/badge/GitHub_Actions_CI%2FCD-0f172a?style=flat-square&logo=githubactions&logoColor=2088ff" alt="GitHub Actions" />
+      <img src="https://img.shields.io/badge/Prometheus_%26_OTel-0f172a?style=flat-square&logo=prometheus&logoColor=e6522c" alt="Prometheus & OTel" />
+      <img src="https://img.shields.io/badge/DVC_%26_Pytest_Gates-0f172a?style=flat-square&logo=pytest&logoColor=0a9edc" alt="DVC & Pytest" />
+      <img src="https://img.shields.io/badge/Vercel-0f172a?style=flat-square&logo=vercel&logoColor=ffffff" alt="Vercel" />
+      <img src="https://img.shields.io/badge/Linux_%26_WSL2-0f172a?style=flat-square&logo=linux&logoColor=fcc624" alt="Linux" />
+    </td>
+  </tr>
+</table>
 
 ### `05 // TELEMETRY & ACTIVITY`
 
